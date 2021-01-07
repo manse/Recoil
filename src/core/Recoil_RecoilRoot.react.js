@@ -427,4 +427,6 @@ module.exports = {
   useRecoilMutableSource,
   RecoilRoot,
   sendEndOfBatchNotifications_FOR_TESTING: sendEndOfBatchNotifications,
+  AppContext,
+  MutableSourceContext,
 };

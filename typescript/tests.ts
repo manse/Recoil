@@ -17,7 +17,7 @@ import {
   useRecoilValueLoadable,
   useResetRecoilState, useSetRecoilState,
   waitForAll, waitForAny, waitForNone
-} from 'recoil';
+} from 'recoil-manse';
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 

@@ -60,7 +60,7 @@ const configs = [
   {
     input: inputFile,
     output: {
-      file: `cjs/recoil.js`,
+      file: `cjs/recoil-manse.js`,
       format: 'cjs',
       exports: 'named',
     },
@@ -72,7 +72,7 @@ const configs = [
   {
     input: inputFile,
     output: {
-      file: `es/recoil.js`,
+      file: `es/recoil-manse.js`,
       format: 'es',
       exports: 'named',
     },
@@ -84,7 +84,7 @@ const configs = [
   {
     input: inputFile,
     output: {
-      file: `native/recoil.js`,
+      file: `native/recoil-manse.js`,
       format: 'es',
       exports: 'named',
     },
@@ -106,7 +106,7 @@ const configs = [
   {
     input: inputFile,
     output: {
-      file: `es/recoil.mjs`,
+      file: `es/recoil-manse.mjs`,
       format: 'es',
       exports: 'named',
     },
@@ -118,7 +118,7 @@ const configs = [
   {
     input: inputFile,
     output: {
-      file: `umd/recoil.js`,
+      file: `umd/recoil-manse.js`,
       format: 'umd',
       name: 'Recoil',
       exports: 'named',
@@ -135,7 +135,7 @@ const configs = [
   {
     input: inputFile,
     output: {
-      file: `umd/recoil.min.js`,
+      file: `umd/recoil-manse.min.js`,
       format: 'umd',
       name: 'Recoil',
       exports: 'named',

@@ -13,7 +13,7 @@
 
 function recoverableViolation(
   message: string,
-  projectName: 'recoil',
+  projectName: 'recoil-manse',
   {error}: {|error?: Error|} = {},
 ): null {
   if (__DEV__) {
